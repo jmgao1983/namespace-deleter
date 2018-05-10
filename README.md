@@ -26,7 +26,7 @@
 
 ## 安装步骤
 
-<table class="table table-condensed">
+<table border="0" class="table table-condensed">
     <tr>
         <td><strong>00-规划集群和安装概览</strong></td>
         <td>[01-创建证书和安装准备](Dockerfile)</td>
