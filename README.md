@@ -28,11 +28,13 @@
 
 <table class="table table-bordered table-striped table-condensed">
     <tr>
-        <td>00-规划集群和安装概览</td>
+        <td><strong>00-规划集群和安装概览</strong></td>
+        <td>01-创建证书和安装准备</td>
         <td>01-创建证书和安装准备</td>
         <td>01-创建证书和安装准备</td>
     </tr>
     <tr>
+        <td>01-创建证书和安装准备</td>
         <td>01-创建证书和安装准备</td>
         <td>01-创建证书和安装准备</td>
         <td>01-创建证书和安装准备</td>
