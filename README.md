@@ -29,12 +29,12 @@
 <table class="table table-bordered table-striped table-condensed">
     <tr>
         <td><strong>00-规划集群和安装概览</strong></td>
-        <td>01-创建证书和安装准备</td>
+        <td>[01-创建证书和安装准备](Dockerfile)</td>
         <td>01-创建证书和安装准备</td>
         <td>01-创建证书和安装准备</td>
     </tr>
     <tr>
-        <td>01-创建证书和安装准备</td>
+        <td><a href=Dockerfile>01-创建证书和安装准备</a></td>
         <td>01-创建证书和安装准备</td>
         <td>01-创建证书和安装准备</td>
         <td>01-创建证书和安装准备</td>
