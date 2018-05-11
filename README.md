@@ -22,7 +22,7 @@
 
 ## 快速指南
 
-单机快速体验k8s集群的测试、开发环境--[AllinOne部署](docs/quickStart.md)；在国内的网络环境下要比官方的minikube方便、简单很多。
+单机快速体验k8s集群的测试、开发环境--[AllinOne部署](docs/quickStart.md)
 
 ## 安装步骤
 
@@ -51,15 +51,32 @@
         <td><a href="docs/guide/heapster.md">heapster监控</a></td>
         <td><a href="docs/guide/efk.md">efk日志</a></td>
         <td><a href="docs/guide/prometheus.md">prometheus监控</a></td>
+    </tr>
+    <tr>
+        <td><strong>特性实验</strong></td>
+        <td><a href="docs/guide/hpa.md">HPA</a></td>
+        <td><a href="docs/guide/networkpolicy.md">NetworkPolicy</a></td>
+        <td><a href="docs/guide/rollingupdateWithZeroDowntime.md">RollingUpdate</a></td>
+        <td><a href=""></a></td>
+        <td><a href=""></a></td>
+    </tr>
+    <tr>
+        <td><strong>集群运维</strong></td>
+        <td><a href="docs/op/AddNode.md">增加node</a></td>
+        <td><a href="docs/op/AddMaster.md">增加master</a></td>
+        <td><a href="docs/op/ChangeVIP.md">修改VIP</a></td>
+        <td><a href="docs/op/upgrade.md">升级</a></td>
+        <td><a href=""></a></td>
+    </tr>
+    <tr>
+        <td><strong>其他</strong></td>
+        <td><a href="docs/guide/harbor.md">harbor部署</a></td>
         <td><a href="docs/guide/ingress.md">ingress入口</a></td>
+        <td><a href=""></a></td>
+        <td><a href=""></a></td>
+        <td><a href=""></a></td>
     </tr>
 </table>
-
-
-- 常用插件部署  [DNS](docs/guide/kubedns.md) [dashboard](docs/guide/dashboard.md) [heapster](docs/guide/heapster.md) [ingress](docs/guide/ingress.md) [efk](docs/guide/efk.md) [harbor](docs/guide/harbor.md)
-- K8S 特性实验  [HPA](docs/guide/hpa.md) [NetworkPolicy](docs/guide/networkpolicy.md) [RollingUpdate](docs/guide/rollingupdateWithZeroDowntime.md)
-- 集群运维指南 [AddNode](docs/guide/op/AddNode.md) [AddMaster](docs/guide/op/AddMaster.md) [ChangeVip](docs/guide/op/ChangeVIP.md)
-- 应用部署实践
 
 ## 沟通交流
 
