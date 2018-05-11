@@ -53,19 +53,19 @@
         <td><a href="docs/guide/prometheus.md">prometheus监控</a></td>
     </tr>
     <tr>
-        <td><strong>特性实验</strong></td>
-        <td><a href="docs/guide/hpa.md">HPA</a></td>
-        <td><a href="docs/guide/networkpolicy.md">NetworkPolicy</a></td>
-        <td><a href="docs/guide/rollingupdateWithZeroDowntime.md">RollingUpdate</a></td>
-        <td><a href=""></a></td>
-        <td><a href=""></a></td>
-    </tr>
-    <tr>
         <td><strong>集群运维</strong></td>
         <td><a href="docs/op/AddNode.md">增加node</a></td>
         <td><a href="docs/op/AddMaster.md">增加master</a></td>
         <td><a href="docs/op/ChangeVIP.md">修改VIP</a></td>
         <td><a href="docs/op/upgrade.md">升级</a></td>
+        <td><a href=""></a></td>
+    </tr>
+    <tr>
+        <td><strong>特性实验</strong></td>
+        <td><a href="docs/guide/networkpolicy.md">NetworkPolicy</a></td>
+        <td><a href="docs/guide/rollingupdateWithZeroDowntime.md">RollingUpdate</a></td>
+        <td><a href="docs/guide/hpa.md">HPA</a></td>
+        <td><a href=""></a></td>
         <td><a href=""></a></td>
     </tr>
     <tr>
