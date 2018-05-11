@@ -8,7 +8,7 @@
 
 项目基于`Ubuntu 16.04/CentOS 7`，其他系统需要读者自行替换部分命令；你可能需要掌握基础`kubernetes` `docker` `linux shell` 知识，关于`ansible`建议阅读 [ansible超快入门](http://weiweidefeng.blog.51cto.com/1957995/1895261) 基本够用。
 
-请阅读[项目分支说明](docs/branch.md)，欢迎提`Issues`和[PRs](docs/mixes/HowToContribute.md)参与维护项目。
+请阅读[项目分支说明](docs/branch.md)，欢迎提[Issues](https://github.com/gjmzj/kubeasz/issues)和[PRs](docs/mixes/HowToContribute.md)参与维护项目。
 
 ## 组件版本
 
@@ -28,35 +28,33 @@
 
 <table border="0">
     <tr>
-        <td><strong>00-规划集群和安装概览</strong></td>
-        <td>[01-创建证书和安装准备](Dockerfile)</td>
-        <td>01-创建证书和安装准备</td>
-        <td>01-创建证书和安装准备</td>
+        <td><a href="docs/00-集群规划和基础参数设定.md">00-规划集群和安装概览</a></td>
+        <td><a href="docs/02-安装etcd集群.md">02-安装etcd集群</a></td>
+        <td><a href="docs/05-安装kube-master节点.md">04-安装master节点</a></td>
+        <td><a href="docs/07-安装calico网络组件.md">06-安装calico网络</a></td>
     </tr>
     <tr>
-        <td><a href=Dockerfile>01-创建证书和安装准备</a></td>
-        <td>01-创建证书和安装准备</td>
-        <td>01-创建证书和安装准备</td>
-        <td>01-创建证书和安装准备</td>
+        <td><a href="docs/01-创建CA证书和环境配置.md">01-创建证书和安装准备</a></td>
+        <td><a href="docs/04-安装docker服务.md">03-安装docker服务</a></td>
+        <td><a href="docs/06-安装kube-node节点.md">05-安装node节点</a></td>
+        <td><a href="docs/07-安装flannel网络组件.md">06-安装flannel网络</a></td>
     </tr>
 </table>
 
-| 01-创建证书和安装准备 | [01-创建和安装准备]() | 01-创建证书 |  
-| - | - | - |  
-| **01-创建证** | **01-创ffff建和安装准备** | 01-创建证书 |  
-| 01-创建证书和安装准备 | 01-创装准备 | 01-创fffffffff建证书 |  
-
-
-- [规划集群和安装概览](docs/00-集群规划和基础参数设定.md)
-- [创建证书和安装准备](docs/01-创建CA证书和环境配置.md)
-- [安装etcd集群](docs/02-安装etcd集群.md)
-- [安装docker服务](docs/04-安装docker服务.md)
-- [安装kube-master节点](docs/05-安装kube-master节点.md)
-- [安装kube-node节点](docs/06-安装kube-node节点.md)
-- [安装calico网络](docs/07-安装calico网络组件.md)
-- [安装flannel网络](docs/07-安装flannel网络组件.md)
-
 ## 使用指南
+
+<table border="0">
+    <tr>
+        <td><strong>常用插件</strong></td>
+        <td><a href="docs/guide/kubedns.md">DNS服务</a></td>
+        <td><a href="docs/guide/dashboard.md">dashboard界面</a></td>
+        <td><a href="docs/guide/heapster.md">heapster监控</a></td>
+        <td><a href="docs/guide/efk.md">efk日志</a></td>
+        <td><a href="docs/guide/prometheus.md">prometheus监控</a></td>
+        <td><a href="docs/guide/ingress.md">ingress入口</a></td>
+    </tr>
+</table>
+
 
 - 常用插件部署  [DNS](docs/guide/kubedns.md) [dashboard](docs/guide/dashboard.md) [heapster](docs/guide/heapster.md) [ingress](docs/guide/ingress.md) [efk](docs/guide/efk.md) [harbor](docs/guide/harbor.md)
 - K8S 特性实验  [HPA](docs/guide/hpa.md) [NetworkPolicy](docs/guide/networkpolicy.md) [RollingUpdate](docs/guide/rollingupdateWithZeroDowntime.md)
